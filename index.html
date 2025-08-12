@@ -8,16 +8,27 @@
 </head>
 
 <body>
-    <header>
-        <nav style="height: 200px; width: 1300px; background-color: lightblue; display: flex;">
-            <img src="assets/logo.png" alt="Imagen de Prueba" style="height: 100px; width: 170px;">
-            <ul style="margin-left: 950px;">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Acerca de nosotros</a></li>
-                <li><a href="formulario.html">Contacto</a></li>
-            </ul>
+        <!-- Navbar-->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Transparent Nav</a>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="#tumama" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="#etapa3" class="nav-link text-uppercase font-weight-bold">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Gallery</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
+    
+
+
     <main>
         <section style="height: 700px; width: 1300px; background-color: cadetblue; display: flex; margin-top: 20px;">
             <article style="flex: 2; padding: 20px;">
@@ -34,7 +45,7 @@
                     <p>Estamos en la etapa 2.</p>
                     <p>texto de relleno</p>
                 </article>
-                <article>
+                <article id="etapa3">
                     <h2>Etapa 3: Especialización</h2>
                     <p>En este curso, nos especializaremos en un lenguaje.</p>
                     <p>Estamos en la etapa 3.</p>
@@ -57,7 +68,7 @@
         </div>
     </main>
 
-    <footer style="height: 200px; width: 1300px; background-color: grey;">
+    <footer id="tumama" style="height: 200px; width: 1300px; background-color: grey;">
         <h4>Datos del Informatorio</h4>
         <p>texto de relleno</p>
     </footer>
