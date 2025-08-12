@@ -22,6 +22,17 @@
 .ul-nav li a:hover {
     color: blue; /* Color al pasar el mouse */
 }
+
+
+.section1{
+    height: 100%; 
+    width: 100%; 
+    background-color: cadetblue; 
+    display: flex; 
+    margin-top: 20px;
+}
+
+
 .saludo{
     text-align: center;
     font-style: italic;
