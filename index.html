@@ -4,71 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Pagina web</title>
 </head>
 
 <body>
         <!-- Navbar-->
-    <header class="header">
-        <nav class="navbar navbar-expand-lg fixed-top py-3">
-            <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Transparent Nav</a>
-                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
-                
-                <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a href="#tumama" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a href="#etapa3" class="nav-link text-uppercase font-weight-bold">About</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Gallery</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+     <header>
+        <nav class="navegacion">
+            <ul class="ul-nav">
+                <li><a href="#sobremi">Sobre mí</a></li>
+                <li><a href="#tumama">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
         </nav>
     </header>
     
 
 
     <main>
-        <section style="height: 700px; width: 1300px; background-color: cadetblue; display: flex; margin-top: 20px;">
-            <article style="flex: 2; padding: 20px;">
-                <h1>Cursos de Informatorio por etapas</h1>
+        <section style="height: 350px; width: 1300px; background-color: cadetblue; display: flex; margin-top: 20px;">
+
+            <article style="flex: 2; padding: 20px;" id="sobremi">
+                <h1 class="saludo">HOLA </h1>
                 <article>
-                    <h2>Etapa 1: HTML, CSS y GITHUB</h2>
-                    <p>En este curso, aprenderemos a crear páginas web desde cero.</p>
-                    <p>Estamos en la etapa 1.</p>
-                    <p>texto de relleno</p>
-                </article>
-                <article>
-                    <h2>Etapa 2: Programación web y Base de datos</h2>
-                    <p>En este curso, aprenderemos a crear páginas web con Python y base de datos.</p>
-                    <p>Estamos en la etapa 2.</p>
-                    <p>texto de relleno</p>
-                </article>
-                <article id="etapa3">
-                    <h2>Etapa 3: Especialización</h2>
-                    <p>En este curso, nos especializaremos en un lenguaje.</p>
-                    <p>Estamos en la etapa 3.</p>
-                    <p>texto de relleno</p>
+                    <p class="texto-grande">Mi nombre es Fabian, soy estudiante de ingenieria
+                        en sistemas de la informacion (ISI). La curso en
+                        la universidad tecnologica nacional (UTN) de la sede de
+                        Resistencia-Chaco. Tambien como hobby reparo computadoras 
+                        tanto hardware como software. A medida que curso mi carrera tambien
+                        realizo cursos de programacion para obtener mas skills en el mundo real.
+                        Es por este motivo el cual estoy realizando mi primer portafolio.
+                    </p>
                 </article>
             </article>
             <aside style="flex: 1; background-color: orange; padding: 20px;">
-                <h2>Recursos adicionales</h2>
+                <h2>CERTIFICADOS</h2>
                 <ul>
-                    <li><a href="#">Enlaces útiles</a></li>
-                    <li><a href="#">Documentación</a></li>
-                    <li><a href="#">Ejemplos de código</a></li>
+                    <li>Estudiante avanzado en ISI.</li>
+                    <li>Técnico en reparación de computadoras (HW/ST).</li>
+                    <li>Programacion con HTML, CSS, JS (en curso).</li>
                 </ul>
             </aside>
         </section>
 
-        <div style="height: 200px; width: 1300px; background-color: yellow;">
-            <h1>Integrantes del Informatorio</h1>
+        <div class="texto-grande"style="height: 200px; width: 1300px; background-color: yellow;">
+            <h3>Integrantes del Informatorio</h3>
             <p>texto de relleno</p>
         </div>
+
+        <div></div>
     </main>
 
-    <footer id="tumama" style="height: 200px; width: 1300px; background-color: grey;">
-        <h4>Datos del Informatorio</h4>
+    <footer class="texto-grande"    id="tumama" style="height: 200px; width: 1300px; background-color: grey;">
+        <h5>CONTACTO</h5>
         <p>texto de relleno</p>
     </footer>

@@ -1,70 +1,35 @@
-.navbar {
-    transition: all 0.4s;
+/*header: clases={navegacion},{centrar},{texto-grande}*/
+.ul-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    gap: 25px;
+    padding: 10px;
+    margin: 0; /* Evita márgenes por defecto */
+    background-color: lightgray;
 }
 
-.navbar .nav-link {
-    color: #fff;
+.navegacion {
+    width: 100%; /* Que ocupe todo el ancho */
 }
 
-.navbar .nav-link:hover,
-.navbar .nav-link:focus {
-    color: #fff;
-    text-decoration: none;
+.ul-nav li a {
+    text-decoration: none; /* Quitar subrayado */
+    color: black; /* Color del texto */
+    font-weight: bold;
 }
 
-.navbar .navbar-brand {
-    color: #fff;
+.ul-nav li a:hover {
+    color: blue; /* Color al pasar el mouse */
+}
+.saludo{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px; 
+}
+.texto-grande{
+    font-size: 24px;
+    text-align: center;
+    line-height: 29px;
 }
 
-
-/* Change navbar styling on scroll */
-.navbar.active {
-    background: #fff;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.navbar.active .nav-link {
-    color: #555;
-}
-
-.navbar.active .nav-link:hover,
-.navbar.active .nav-link:focus {
-    color: #555;
-    text-decoration: none;
-}
-
-.navbar.active .navbar-brand {
-    color: #555;
-}
-
-
-/* Change navbar styling on small viewports */
-@media (max-width: 991.98px) {
-    .navbar {
-        background: #fff;
-    }
-
-    .navbar .navbar-brand, .navbar .nav-link {
-        color: #555;
-    }
-}
-
-
-
-/*
-*
-* ==========================================
-* FOR DEMO PURPOSES
-* ==========================================
-*
-*/
-.text-small {
-    font-size: 0.9rem !important;
-}
-
-
-body {
-    min-height: 110vh;
-    background-color: #4ca1af;
-    background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
-}
