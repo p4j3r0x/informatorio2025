@@ -1,3 +1,7 @@
+/*cuerpo entero*/
+#imagen-pag{
+    background-image: url(assets/matrix.jpg);
+}
 /*header: clases={navegacion},{centrar},{texto-grande}*/
 .ul-nav {
     list-style: none;
