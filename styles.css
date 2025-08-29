@@ -1,11 +1,63 @@
+/*paleta de colores*/
+.fondo  {background-color: #311508;}
+.nivel1 {background-color: #583116;}
+.nivel2 {background-color: #885c2f;}
+.nivel3 {background-color: #c28d4c;}
+.nivel4 {background-color: #efcc67;}
 /*cuerpo entero*/
 #imagen-pag {
-    background-image: url("assets/matrix.jpg");
+    background-image: url("./assets/");
     background-size: cover;       /* Hace que la imagen cubra toda la pantalla */
     background-repeat: no-repeat; /* Evita mosaico */
     background-position: center;  /* Centrada */
     min-height: 100vh;            /* Que ocupe al menos toda la pantalla */
+
 }
+
+ #bienvenida {
+      position: fixed;          /* ocupa toda la pantalla */
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: white;
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      z-index: 9999;            /* encima de todo */
+      animation: desaparecer 3s forwards;
+      /*sombras*/
+      text-shadow:
+        2px 2px 4px rgba(0,0,0,0.7),
+        0 0 10px rgba(255,255,255,0.3),
+        0 0 20px rgba(255,255,255,0.2);
+
+
+    }
+.oculto{
+    display: none;
+}
+
+
+/* Navbar base: inicialmente oculta arriba */
+.navegacion {
+    width: 100%;
+    position: fixed;
+    top: -70px;          /* fuera de la pantalla */
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: top 0.5s ease; /* animación suave al aparecer */
+    z-index: 1000;
+}
+
+/* Navbar visible al hacer scroll */
+.activar-nav {
+    top: 0;               /* se desliza hacia abajo */
+}
+
+
 /*header: clases={navegacion},{centrar},{texto-grande}*/
 .ul-nav {
     list-style: none;
@@ -16,11 +68,6 @@
     margin: 0; /* Evita márgenes por defecto */
     background-color: lightgray;
 }
-
-.navegacion {
-    width: 100%; /* Que ocupe todo el ancho */
-}
-
 .ul-nav li a {
     text-decoration: none; /* Quitar subrayado */
     color: black; /* Color del texto */
@@ -35,7 +82,6 @@
 .section1{
     height: 100%; 
     width: 100%; 
-    background-color: cadetblue; 
     display: flex; 
     margin-top: 20px;
 }
@@ -52,3 +98,22 @@
     line-height: 29px;
 }
 
+
+
+#informatorio {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url('assets/logo2.png');
+    background-size: contain; /* la imagen completa dentro del círculo */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 50%;       /* círculo perfecto */
+}
+
+#informatorio:hover {
+    transform: scale(1.1); /* pequeño efecto al pasar el mouse */
+}
