@@ -1,6 +1,10 @@
 /*cuerpo entero*/
-#imagen-pag{
-    background-image: url(assets/matrix.jpg);
+#imagen-pag {
+    background-image: url("assets/matrix.jpg");
+    background-size: cover;       /* Hace que la imagen cubra toda la pantalla */
+    background-repeat: no-repeat; /* Evita mosaico */
+    background-position: center;  /* Centrada */
+    min-height: 100vh;            /* Que ocupe al menos toda la pantalla */
 }
 /*header: clases={navegacion},{centrar},{texto-grande}*/
 .ul-nav {
