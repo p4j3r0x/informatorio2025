@@ -28,32 +28,47 @@
 
 
         <main>
-            <section class="section1 nivel2" id="saludo">
+            <section class="section1" id="saludo">
 
-                <article style="flex: 2; padding: 20px;" id="sobremi">
-                    <h1 class="saludo">HOLA </h1>
-                    <article>
-                        <p class="texto-grande">Mi nombre es Fabian, soy estudiante de ingenieria
-                            en sistemas de la informacion (ISI). La curso en
-                            la universidad tecnologica nacional (UTN) de la sede de
-                            Resistencia-Chaco. Tambien como hobby reparo computadoras 
-                            tanto hardware como software. A medida que curso mi carrera tambien
-                            realizo cursos de programacion para obtener mas skills en el mundo real.
-                            Es por este motivo el cual estoy realizando mi primer portafolio.
-                        </p>
-                    </article>
+                <article class="presentacion">
+                    
+                    <h1 >HOLA</h1>
+                    <p class="texto-grande">
+                        Mi nombre es Fabian, soy estudiante de ingeniería
+                        en sistemas de la información (ISI) en la UTN Resistencia-Chaco.
+                        También como hobby reparo computadoras, tanto hardware como software.
+                        A medida que curso mi carrera, realizo cursos de programación
+                        para obtener más skills en el mundo real.
+                        Es por este motivo que estoy realizando mi primer portafolio.
+                    </p>
+                    <!-- Botón para mostrar/ocultar certificados -->
+                     <!-- Botón animado Uiverse para mostrar/ocultar certificados -->
+                      <button class="button button-item" id="btn-certificados">
+                          <span class="button-bg">
+                              <span class="button-bg-layers">
+                                  <span class="button-bg-layer button-bg-layer-1 -purple"></span>
+                                  <span class="button-bg-layer button-bg-layer-2 -turquoise"></span>
+                                  <span class="button-bg-layer button-bg-layer-3 -yellow"></span>
+                              </span>
+                          </span>
+                          <span class="button-inner">
+                              <span class="button-inner-static">>>></span>
+                              <span class="button-inner-hover">>>></span>
+                          </span>
+                      </button>
                 </article>
-                <aside style="flex: 1; padding: 20px;" class="nivel3">
+            
+                <aside id="certificados" class="nivel3 oculto" >
                     <h2>CERTIFICADOS</h2>
                     <ul>
                         <li>Estudiante avanzado en ISI.</li>
                         <li>Técnico en reparación de computadoras (HW/ST).</li>
-                        <li>Programacion con HTML, CSS, JS (en curso).</li>
+                        <li>Programación con HTML, CSS, JS (en curso).</li>
                     </ul>
                 </aside>
             </section>
 
-            <div class="texto-grande nivel3" style="padding-bottom: 10px;" id="infor">
+            <div class="texto-grande nivel3" style="padding-bottom: 10px; border-radius: 10px;" id="infor">
                 <h3 style="padding-top: 10px;">INFORMATORIO</h3>
                 <p>El Informatorio es un programa de formación virtual en programación y tecnología, impulsado por el Gobierno del Chaco. Hecho por chaqueños, para chaqueños.</p>
                 
@@ -65,7 +80,7 @@
             <div></div>
         </main>
 
-        <footer class="texto-grande nivel4"    id="contacto" style="height: 100%; width: 100%; ">
+        <footer class="texto-grande nivel4"    id="contacto" style="height: 100%; width: 100%;border-radius: 10px; ">
             <h5 style="padding-top:10px;">CONTACTO</h5>
             <a href="mailto:paginas_01@hotmail.com" target="_blank" id="correo"> </a>
 

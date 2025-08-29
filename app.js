@@ -19,3 +19,13 @@ window.addEventListener('scroll', function () {
     navbar.classList.remove('activar-nav');
   }
 });
+
+
+//boton certificados
+
+const btn = document.getElementById("btn-certificados");
+const certificados = document.getElementById("certificados");
+
+btn.addEventListener("click", () => {
+    certificados.classList.toggle("oculto");
+});
