@@ -117,3 +117,20 @@
 #informatorio:hover {
     transform: scale(1.1); /* pequeño efecto al pasar el mouse */
 }
+
+
+
+#correo{
+    display: block;
+    width: 50px;
+    height: 100px;
+    background-image: url('assets/correo.png');
+    background-size: contain; /* la imagen completa dentro del círculo */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+         /* círculo perfecto */
+}
+
