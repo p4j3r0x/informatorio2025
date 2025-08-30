@@ -20,6 +20,7 @@
                 <ul class="ul-nav">
                     <li><a href="#saludo">SOBRE MÍ</a></li>
                     <li><a href="#infor">INFORMATORIO</a></li>
+                    <li><a href="#proyectos">PROYECTOS</a></li>
                     <li><a href="#contacto">CONTACTO</a></li>
                 </ul>
             </nav>
@@ -32,7 +33,7 @@
 
                 <article class="presentacion">
                     
-                    <h1 >HOLA</h1>
+                    <h1>PRESENTACIÓN</h1>
                     <p class="texto-grande">
                         Mi nombre es Fabian, soy estudiante de ingeniería
                         en sistemas de la información (ISI) en la UTN Resistencia-Chaco.
@@ -60,6 +61,7 @@
             
                 <aside id="certificados" class="nivel3 oculto" >
                     <h2>CERTIFICADOS</h2>
+                    
                     <ul>
                         <li>Estudiante avanzado en ISI.</li>
                         <li>Técnico en reparación de computadoras (HW/ST).</li>
@@ -67,8 +69,8 @@
                     </ul>
                 </aside>
             </section>
-
-            <div class="texto-grande nivel3" style="padding-bottom: 10px; border-radius: 10px;" id="infor">
+    
+            <div class="texto-grande nivel3 cajitas" style="padding-bottom: 10px;" id="infor">
                 <h3 style="padding-top: 10px;">INFORMATORIO</h3>
                 <p>El Informatorio es un programa de formación virtual en programación y tecnología, impulsado por el Gobierno del Chaco. Hecho por chaqueños, para chaqueños.</p>
                 
@@ -77,13 +79,43 @@
 
             </div>
 
-            <div></div>
+            <div class="texto-grande nivel3 cajitas" id="proyectos" >
+                <h3 style="padding-top: 10px;">PROYECTOS</h3>
+                <!-- div padre--> 
+                <div id="cartas">
+                    <div class="tarjeta">
+                    <h4>Proyecto 1</h4>
+                    <p>Descripción breve del proyecto.</p>
+                </div>
+            
+                <div class="tarjeta">
+                    <h4>Proyecto 2</h4>
+                    <p>Otra descripción breve.</p>
+                </div>
+            
+                <div class="tarjeta">
+                    <h4>Proyecto 3</h4>
+                    <p>Más info acá.</p>
+                </div>
+
+                </div>
+                
+            </div>
         </main>
 
-        <footer class="texto-grande nivel4"    id="contacto" style="height: 100%; width: 100%;border-radius: 10px; ">
+        <footer class="texto-grande nivel4 cajitas"    id="contacto" >
             <h5 style="padding-top:10px;">CONTACTO</h5>
-            <a href="mailto:paginas_01@hotmail.com" target="_blank" id="correo"> </a>
+    
 
+             <a href="mailto:usuario@ejemplo.com" target="_blank" rel="noopener noreferrer" title="Enviar correo">
+        <svg xmlns="http://www.w3.org/2000/svg" 
+             style="width: 200px; height: 150px; cursor: pointer;" 
+             viewBox="0 0 640 640">
+            <path d="M112 128C85.5 128 64 149.5 64 176C64 191.1 71.1 205.3 
+            83.2 214.4L291.2 370.4C308.3 383.2 331.7 383.2 348.8 370.4L556.8 214.4C568.9 205.3 576 191.1 576 176C576 149.5
+             554.5 128 528 128L112 128zM64 260L64 448C64 483.3 92.7 512 128 512L512 512C547.3 512 576 483.3 576 448L576 260L377.6
+              408.8C343.5 434.4 296.5 434.4 262.4 408.8L64 260z"/>
+        </svg></a>
             <h5 style="padding-bottom: 10px;">© Todos los derechos reservados</h5>
         </footer>
 
