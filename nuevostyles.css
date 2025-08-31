@@ -9,6 +9,8 @@
 
 
 
+
+
 main {
      /* espacio debajo de navbar */
     padding: 20px;
@@ -159,14 +161,14 @@ footer {
     justify-content: center; /* centra horizontalmente */
     align-items: center;     /* centra verticalmente */
     overflow: hidden;        /* corta lo que sobresalga */
-    max-height: 74%;
+    
     
   
 }
 
 .div1 img {
     max-width: 50%;
-    max-height:50%;
+    max-height:100%;
     object-fit: cover; /* cubre el contenedor sin deformarse */
     border-radius: 20%;
 }
@@ -178,7 +180,8 @@ footer {
 .div2 {grid-column: span 2 / span 2;grid-column-start: 3;
 }
 
-.div3 {grid-column: span 2 / span 2;grid-column-start: 3;grid-row-start: 2;}
+.div3 {grid-column: span 2 / span 2;grid-column-start: 3;grid-row-start: 2;
+}
 
 .div4 {grid-column: span 2 / span 2;grid-row-start: 3;}
 
