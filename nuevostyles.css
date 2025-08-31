@@ -7,6 +7,8 @@
 
 
 
+
+
 main {
      /* espacio debajo de navbar */
     padding: 20px;
@@ -133,6 +135,7 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(7, 1fr);
     gap: 8px;
+    
 }
 
 
@@ -140,6 +143,10 @@ footer {
 
 .bordes{
     border-radius: 10px;
+}
+/*colores caja*/
+.div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9, .div10 {
+    background-image: linear-gradient(to right top, #1c1c1c, #1c1c1c, #1c1c1c, #1c1c1c, #1c1c1c);
 }
 
 
@@ -152,23 +159,24 @@ footer {
     justify-content: center; /* centra horizontalmente */
     align-items: center;     /* centra verticalmente */
     overflow: hidden;        /* corta lo que sobresalga */
+    max-height: 74%;
     
-    width: 100%;  /* ocupa todo el espacio del grid */
-    height: 100%; /* ocupa todo el espacio del grid */
+  
 }
 
 .div1 img {
     max-width: 50%;
-    max-height: 90%;
+    max-height:50%;
     object-fit: cover; /* cubre el contenedor sin deformarse */
-    border-radius: 100%;
+    border-radius: 20%;
 }
 
 
 
 
 
-.div2 {grid-column: span 2 / span 2;grid-column-start: 3;}
+.div2 {grid-column: span 2 / span 2;grid-column-start: 3;
+}
 
 .div3 {grid-column: span 2 / span 2;grid-column-start: 3;grid-row-start: 2;}
 
