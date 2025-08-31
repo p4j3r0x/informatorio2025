@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
         setTimeout(() => {
             bienvenida.style.display = "none";
         }, 1000);
-    }, 3000);
+    }, 2000);
 });
 
 // Navbar aparece al hacer scroll

@@ -183,6 +183,8 @@ footer {
 .div3 {grid-column: span 2 / span 2;grid-column-start: 3;grid-row-start: 2;
 }
 
+
+/*4 y 5 al pedo*/
 .div4 {grid-column: span 2 / span 2;grid-row-start: 3;}
 
 .div5 {grid-column: span 2 / span 2;grid-column-start: 3;grid-row-start: 3;}
@@ -225,12 +227,12 @@ footer {
   border-radius: 8px;
   font-size: 17px;
   font-weight: 500;
-  color: #ffffff80;
+  color: #6b6b6b;
   text-shadow: none;
   background: transparent;
   cursor: pointer;
   box-shadow: transparent;
-  border: 1px solid #ffffff80;
+  border: 1px solid #6b6b6b;
   transition: 0.5s ease;
   user-select: none;
 }
