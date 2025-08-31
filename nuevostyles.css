@@ -244,3 +244,18 @@ footer {
   box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
     0 0 100px #008cff;
 }
+
+
+
+/*iconos*/
+.icon {
+    .icon {
+  width: 50px;
+  height: 50px;
+  padding: 6px 0px 6px 0;          /* opcional, espacio dentro */
+  background: white;     /* opcional, para que se note */
+  border-radius: 10px;   /* opcional, esquinas redondeadas */
+  box-sizing: border-box;
+}
+
+  }
