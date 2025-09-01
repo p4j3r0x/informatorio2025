@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio Informatorio 2025</title>
     <link rel="stylesheet" href="nuevostyles.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/consolamono" type="text/css"/>
 </head>
 <body>
     
     
-    <!--
+    
     <section id="bienvenida">
         <h1 style="text-shadow: 3px 4px 0px #7c7c7c;">¡BIENVENIDO A MI PORTAFOLIO!</h1>
         <div class="loader">
@@ -26,14 +27,15 @@
             <div class="bar11"></div>
             <div class="bar12"></div>
         </div>
-    </section> -->
+    </section>
 
     <!-- Navbar -->
     <header>
-        <nav class="navegacion">
-            <ul class="ul-nav">
+        <nav class="navegacion " >
+            <ul class="ul-nav" style="  font-family: 'ConsolaMonoBook'; font-weight: normal; font-style: normal;">
                 <li><a href="#sobre-mi">SOBRE MÍ</a></li>
                 <li><a href="#proyectos">PROYECTOS</a></li>
+                <li><a href="#informatorio">INFORMATORIO</a></li>
                 <li><a href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
@@ -48,8 +50,8 @@
                  
                  <div class="bordes div2" id="sobre-mi"> <!--descripcion mia-->
                     <article style="color: aliceblue;"> 
-                        <h1 style="text-align: left ; padding-left: 25px ;">SOBRE MÍ</h1>
-                        <p style="text-align: left; padding: 0 10% 0 10%; font-style:italic;">Mi nombre es Fabian, soy estudiante de ingeniería en sistemas de la información (ISI) en la UTN Resistencia-Chaco. 
+                        <h1>SOBRE MÍ</h1>
+                        <p  class="color-texto" style="text-align: left; padding: 0 10% 0 10%; font-style:italic;">Mi nombre es Fabian, soy estudiante de ingeniería en sistemas de la información (ISI) en la UTN Resistencia-Chaco. 
                             También como hobby reparo computadoras, tanto hardware como software. A medida que curso mi carrera, realizo cursos 
                             de programación para obtener más skills en el mundo real. Es por este motivo que estoy realizando mi primer portafolio.
                         </p>
@@ -58,30 +60,29 @@
                  </div>
 
                  <div class="bordes div3">
-                    <article class="intereses">
-                       <h2>Intereses</h2>
-                       <div ></div>
-                       <p>asdasd</p>
+                    <article class="intereses" >
+                       <h1 class="color-texto">HOBBYS</h1>
+                       <div style="padding-left: 5%; display: flex; align-items: center;  width: 100%;  max-height: 100px;">
+                            <img src="./assets/codigo.png" alt="icono-codigo" style="height:50px;">
+                            <img src="./assets/gaming.png" alt="icono-mando"  style="height:45px;">
+                            <img src="./assets/musica.png" alt="icono-musica" style="height:60px;">
+                            
+                        </div>
+                      
                     </article>
                 </div>
                 <!---->
-                 <div class="bordes div4" > <!--freelancer-->
-                    <div id="contenedor-contacto">
-                        <h1>Contacto</h1>
-                    </div>
-                    
-                 </div>
-                 <div class="bordes div5"  > 
-                    dedicacion2
-                 </div>
+                 
 
                 <!---->
 
-                 <div class="bordes div6" style="color:rgb(255, 255, 255)"  >
-                    <h1>Estudios</h1>
+                 <div class="bordes color-texto div6"   >
+                    <div style=" display: flex; align-items: center;  width: 100%; ">
+                    <h1>ESTUDIOS</h1> <img src="./assets/libros.png" alt="icono-libro" style="height:50px;">
+                    </div>
                     <ul>
-                        <h2>Titulo Secundario</h2>
-                        <li>domingo matheu (2018)</li>
+                        <h2 >Titulo Secundario</h2>
+                        <li>Domingo Matheu N° 32 (2018)</li>
                         <h2>Titulo Universitario</h2>
                         <li>Ing. en Sistemas de la Información (Estudiante avanzado UTN FRRe)</li>
                         <h2>Cursos</h2>
@@ -89,8 +90,9 @@
                         <li>Programacion web (en curso)</li>                        
                     </ul>
                  </div>
+
                  <div class="bordes div7" style="padding-bottom: 10px;"  >
-                   <h1 style="color: aliceblue;">Tecnologías</h1>
+                   <h1 class="color-texto">TECNOLOGÍAS</h1>
             
                     
                         <div style="display: flex; align-items: center; background-color: aliceblue; width: 100%; border-radius: 100px;  ">
@@ -105,24 +107,38 @@
                         
                         </div>
                     </div>
-                 <div class="bordes div8"  >
-                    <h1>Idiomas</h1>
-                    <div id="contenedor-idiomas">    
-                        <h2>ESPAÑOL (nativo).</h2>
-                        <h2>INGLES A2. </h1>
+
+                 <div class="bordes div8 color-texto"  >
+                    <h1>IDIOMAS</h1>
+                    <div id="contenedor-idiomas" style="padding-left: 5%; display: flex; align-items: center;  width: 100%; font-size: 15px;">    
+                        <h2>Español (nativo)</h2> <img src="./assets/argentina.png" alt="bandera-argentina" style="height: 100px; width: 100px;">
+                        <h4>|</h4>
+                        <h2>Inglés (A2) </h1> <img src="./assets/eeuu.png" alt="bandera-estados-unidos"  style="height: 100px; width: 100px;">
                     </div>
+                </div>
+                
+                
+                
+                <div  id="informatorio" class="bordes div9 color-texto" style="text-align: center; padding-bottom: 10px;"  >
+                    <h1 style="text-align: center;">INFORMATORIO</h1>
+                    <p> En 2025 aprendé programación en el INFO!</p>
+                    <p>¡Con nuevas propuestas y contenidos! Sigamos aprendiendo en comunidad</p>
+                    <a href="https://campus-informatorio.chaco.gob.ar/" target="_blank"><img src="./assets/logo2.png" alt="icono-informatorio" style="border-radius:100%;"></a>
                  </div>
-                 <div class="bordes div9"  >
-                    redes
-                 </div>
+
+
+
+
+
+
                  <div class="bordes div10"  id="proyectos"> <!--proyectos-->
-                    <h1 style="color: rgb(255, 255, 255); text-align: center; font-style: italic;">PROYECTOS</h1>
-                    <div class="texto-grande nivel3 cajitas" id="proyectos" >
+                    <h1 class="color-texto" style=" text-align: center;">PROYECTOS</h1>
+                    <div class="nivel3 cajitas" id="proyectos" >
                     <!-- contenedor raiz de Proyectos/Cartas--> 
                     <div id="cartas" style="text-align: center;">
                         <div class="tarjeta">
                         
-                            <h4>Anagrama</h4>
+                            <h3>Anagrama</h3>
                         <p>Juego de anagrama realizado en lenguaje PASCAL.</p>
                         <a href="https://github.com/p4j3r0x/ANAGRAMA-PASCAL.git" target="_blank" rel="noopener noreferrer">
                             <button class="btn">Visitar</button>
@@ -132,7 +148,7 @@
                 
                     <div class="tarjeta">
                         
-                        <h4>Viborita</h4>
+                        <h3>Viborita</h3>
                         <p>Juego clasico de snake realizado en lenguaje C.</p>
                         <a href="https://github.com/p4j3r0x/JUEGO-VIBORA-.-C.git" target="_blank" rel="noopener noreferrer">
                             <button class="btn">Visitar</button>
@@ -142,7 +158,7 @@
                 
                     <div class="tarjeta">
                         
-                        <h4>Portafolio Web</h4>
+                        <h3>Portafolio Web</h3>
                         <p>Breve curriculo realizado con HTML, CSS, JS.</p>
                         <a href="https://github.com/p4j3r0x/informatorio2025.git" target="_blank" rel="noopener noreferrer">
                             <button class="btn">Visitar</button>
@@ -159,6 +175,8 @@
     </main>
 
     <footer>
+        
+        <p id="contacto">paginas_01@hotmail.com</p>
         <p>&copy; 2025 Mi Portafolio</p>
     </footer>
 

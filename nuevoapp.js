@@ -20,3 +20,36 @@ window.addEventListener('scroll', function () {
         navbar.classList.remove('activar-nav');
     }
 });
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+ const parrafo = document.getElementById('texto-copiable');
+  let timeoutId = null; // guardamos el ID del setTimeout
+
+  parrafo.addEventListener('click', () => {
+    const textoOriginal = parrafo.innerText;
+
+    // cancelar cualquier timeout anterior
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+      timeoutId = null;
+    }
+
+    navigator.clipboard.writeText(textoOriginal)
+      .then(() => {
+        parrafo.innerText = "¡Texto copiado!";
+
+        // restaurar texto original después de 1.5 segundos
+        timeoutId = setTimeout(() => {
+          parrafo.innerText = textoOriginal;
+          timeoutId = null;
+        }, 1500);
+      })
+      .catch(err => console.error('Error al copiar:', err));
+  });
+
+
+});
+

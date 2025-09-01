@@ -5,11 +5,27 @@
 .nivel3 { color: #32372c; }
 .nivel4 { color: #4e4443; }
 
+.color-texto{
+    color: #F8F8FF;
+    font-family: 'ConsolaMonoBook'; font-weight: normal; font-style: normal;
+}
 
+li{
+    font-style: italic;
+    padding-left: 5%;
+}
 
+h1{
+    text-align: left ; padding-left: 25px ;
+    font-family: 'ConsolaMonoBook'; font-weight: normal; font-style: normal;
+}
 
-
-
+h4{
+    padding: 0 10px 0 10px;
+    color: rgb(72, 72, 72);
+    font-weight: bolder;
+    font-size: 25px;
+}
 
 main {
      /* espacio debajo de navbar */
@@ -95,6 +111,12 @@ body {
 
 .activar-nav { top: 0; }
 
+ul{
+    padding-left: 5%;
+}
+li{
+    margin-left: 5px;
+}
 .ul-nav {
     list-style: none;
     display: flex;
@@ -188,16 +210,16 @@ footer {
 .div4 {grid-column: span 2 / span 2;grid-row-start: 3;}
 
 .div5 {grid-column: span 2 / span 2;grid-column-start: 3;grid-row-start: 3;}
-
-.div6 {grid-column: span 2 / span 2;grid-row: span 2 / span 2;grid-column-start: 3;grid-row-start: 4;}
-
-.div7 {grid-column: span 2 / span 2;grid-column-start: 1;grid-row-start: 4;}
-
-.div8 {grid-column: span 2 / span 2;grid-row-start: 5;}
-
+/*  estudios  */
+.div6 {grid-column: span 2 / span 2;grid-row: span 2 / span 2;grid-column-start: 3;grid-row-start: 3;}
+/*tecnologias*/
+.div7 {grid-column: span 2 / span 2;grid-column-start: 1;grid-row-start: 3;}
+/*idiomas*/
+.div8 {grid-column: span 2 / span 2;grid-row-start: 4;}
+/*contacto*/
 .div9 {grid-column: span 4 / span 4;grid-row-start: 6;}
-
-.div10 {grid-column: span 4 / span 4;grid-row-start: 7;}
+/*proyecto*/
+.div10 {grid-column: span 4 / span 4;grid-row-start: 5;}
 
 /*PROYECTOS*/
 #cartas {
@@ -207,6 +229,7 @@ footer {
     justify-content: center;        /* centrar todas las columnas */
     gap: 20px;                      /* separación entre tarjetas */
     padding: 20px;
+    font-family: 'ConsolaMonoBook'; font-weight: normal; font-style: normal;
 }
 
 /* estilo de cada tarjeta */
@@ -261,3 +284,4 @@ footer {
 }
 
   }
+
